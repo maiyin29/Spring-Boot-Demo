@@ -5,5 +5,6 @@ public class Guest {
         System.out.println("nihao");
         System.out.println("zhangqiling");
         System.out.println("wuxie");
+        System.out.println("banzi");
     }
 }
