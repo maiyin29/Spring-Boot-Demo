@@ -22,7 +22,6 @@ public class GuestServiceImpl implements GuestService {
 
     @Override
     public void udate(Guest guest) {
-
         guestDao.update(guest);
     }
 

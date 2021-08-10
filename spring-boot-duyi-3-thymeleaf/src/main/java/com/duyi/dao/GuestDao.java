@@ -40,7 +40,6 @@ public class GuestDao {
         }
         return new Guest("","");
     }
-
     public void delete(String name){
         guestList.remove(get(name));
     }
