@@ -9,5 +9,4 @@ public class OrmApplication {
     public static void main(String[] args) {
         SpringApplication.run(OrmApplication.class, args);
     }
-
 }

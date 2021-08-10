@@ -12,7 +12,6 @@ import java.util.List;
 public class GuestServiceImpl implements GuestService {
     @Autowired
     private GuestRepository repository;
-
     @Override
     public List<Guest> getGuests() {
         return null;

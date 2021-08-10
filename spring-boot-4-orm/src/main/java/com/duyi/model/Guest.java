@@ -20,5 +20,4 @@ public class Guest implements Serializable {
     @Column
     private String role;
 
-
 }

@@ -24,6 +24,7 @@ public class GuestController {
         List<Guest> guestList =guestService.getGuests();
         model.addAttribute("guestList",guestList);
         return "list";
+
     }
 
 
