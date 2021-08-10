@@ -1,10 +1,11 @@
 package com.duyi.bean;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data @AllArgsConstructor
 public class Guest {
-    public static void main(String[] args) {
-        System.out.println("nihao");
-        System.out.println("zhangqiling");
-        System.out.println("wuxie");
-        System.out.println("banzi");
-    }
+    private String name;
+    private String role;
+
 }
