@@ -42,6 +42,7 @@ public class GuestController {
     @RequestMapping("/guest/delete")
     public String update(String name){
         guestService.delete(name);
+
         return "redirect:/guest/list";
 
     }
